@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.email-template {
+  width: 600px;
+  margin: auto;
+  align-items: center;
+}
+.email-template_logo {
+  width: 290px;
+  padding: 50px 0 30px;
+}
+.email-template table {
+  background-color: #f7f7f7;
+  width: 100%;
+  border: 0;
+}
+.email-template td {
+  padding: 20px 60px;
+}
+.email-template h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffa506 !important;
+}
+.email-body {
+  color: #777;
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.email-btn {
+  font-size: 16px;
+  background: #ff3836;
+  color: #fff;
+  padding: 13px 16px;
+  border: 0;
+  outline: 0;
+  box-shadow: unset;
+  cursor: pointer;
+  font-weight: 700;
+}
+.theme-text {
+  color: #ffa506 !important;
+}
+
+/* Mested Table */
+.product_item_table{
+  margin-bottom: 20px;
+}
+.product_item_table th h3 {
+  margin: 0;
+}
+.product_item_table th{
+  padding: 5px;
+}
+.product_item_table td {
+  padding: 5px 5px;
+}
+.product_item_table td{
+  width: 50%;
+}
+.product_item_table, .product_item_table th, .product_item_table td {
+  border: 1px solid #1b2e51;
+  border-collapse: collapse;
+}
+td.product_color_text {
+  font-weight: 700;
+}
+
+.products__title{
+  color: #1b2e51;
+  text-align: center;
+  margin-top: 0;
+}
+
+th.product-title {
+  background-color: #1b2e51 !important;
+  color: #fff !important;
+  padding: 10px 5px;
+}
+
+
